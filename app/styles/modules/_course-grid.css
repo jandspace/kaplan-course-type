@@ -1,0 +1,76 @@
+.course-grid {
+width: 100%;
+padding-top: 30px;
+text-align: center;
+
+  &__grid-item{
+
+    &--center {
+      display: inline-block !important;
+      float: none;
+      margin-bottom: 15px;
+
+    }
+
+
+    &__img{
+      display: block;
+
+    }
+    &__title {
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+
+      @mixin atSmaller {
+        height: auto !important;
+      }
+    }
+    &__description {
+      font-size: 12px;
+      font-weight: 300;
+      text-align: center;
+
+      @mixin atSmaller {
+        height: auto !important;
+      }
+    }
+
+    &__starting-from {
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    &__price {
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      color:$priceColor;
+    }
+
+  }
+
+
+  &__grid-item__inner {
+
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 9px rgba(150, 150, 150, 0.10);
+
+
+  }
+
+
+}
+
+

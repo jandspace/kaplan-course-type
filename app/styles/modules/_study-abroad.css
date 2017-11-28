@@ -1,0 +1,56 @@
+.study-abroad {
+  background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/study-english-abroad-bg-small.jpg") top center no-repeat fixed;
+  background-size: cover;
+
+  background-color: #142933;
+
+  @mixin atRetina {
+    background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/study-english-abroad-bg@2x.jpg") top center no-repeat fixed;
+    background-size: cover;
+  }
+
+  @mixin atSmall {
+
+    background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/study-english-abroad-bg.jpg") top center no-repeat fixed;
+    background-size: cover;
+  }
+
+  &__content {
+    width: 100%;
+    padding-top: 20px;
+
+    @mixin atSmall {
+      padding-top: 40px;
+
+    }
+
+
+    &__circle {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border:2px solid white;
+      margin: 0 auto;
+
+      .icon {
+        display: block;
+        @mixin centered;
+      }
+
+    }
+
+    &__description {
+      display: block;
+      font-size: 14px;
+      text-align: center;
+      color: white;
+      padding: 10px 15px;
+      line-height: 125%;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+  }
+
+
+}

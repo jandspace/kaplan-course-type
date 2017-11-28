@@ -1,0 +1,1114 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  color: #404040;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+.icon {
+  background-image: url('/images/sprites/sprite-929af091.svg');
+}
+.icon--career {
+  width: 61px;
+  height: 62px;
+  background-position: 50% 52.592592592592595%;
+}
+.icon--college {
+  width: 50px;
+  height: 50px;
+  background-position: 35.947712418300654% 96.59863945578232%;
+}
+.icon--friends {
+  width: 61px;
+  height: 62px;
+  background-position: 100% 0;
+}
+.icon--improve-your-english {
+  width: 61px;
+  height: 62px;
+  background-position: 100% 45.925925925925924%;
+}
+.icon--progress {
+  width: 71px;
+  height: 71px;
+  background-position: 0 0;
+}
+.icon--resume {
+  width: 71px;
+  height: 71px;
+  background-position: 53.78787878787879% 0;
+}
+.icon--schools {
+  width: 71px;
+  height: 71px;
+  background-position: 0 56.34920634920635%;
+}
+.icon--student {
+  width: 55px;
+  height: 55px;
+  background-position: 0 100%;
+}
+.icon--testimonial1 {
+  width: 19px;
+  height: 19px;
+  background-position: 57.06521739130435% 79.7752808988764%;
+}
+.icon--testimonial2 {
+  width: 19px;
+  height: 19px;
+  background-position: 67.3913043478261% 79.7752808988764%;
+}
+.page-section {
+
+  padding: 50px 15px;
+
+}
+.page-section--extra-t {
+    padding-top: 50px;
+  }
+@media (min-width: 768px) {
+.page-section--extra-t {
+      padding-top: 75px
+  }
+  }
+.large-hero {
+  position: relative;
+  width: 100%;
+}
+.large-hero:before {
+      position: absolute;
+      content: "";
+      top:0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(32, 32, 32, 0.20);
+
+  }
+.large-hero__background-img {
+
+  }
+.large-hero__content {
+    width: 100%;
+    padding: 0 15px;
+    position: absolute;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+
+  }
+.large-hero__title {
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+
+
+  }
+@media (min-width: 530px) {
+.large-hero__title {
+      font-size: 46px
+
+
+  }
+  }
+@media (min-width: 768px) {
+.large-hero__title {
+      font-size: 58px
+
+
+  }
+  }
+@media (min-width: 1170px) {
+.large-hero__title {
+      font-size: 68px
+
+
+  }
+  }
+.large-hero__subtitle {
+    display: block;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
+
+
+  }
+@media (min-width: 530px) {
+.large-hero__subtitle {
+      font-size: 18px
+
+
+  }
+  }
+@media (min-width: 768px) {
+.large-hero__subtitle {
+      font-size: 24px
+
+
+  }
+  }
+@media (min-width: 1170px) {
+.large-hero__subtitle {
+      font-size: 28px
+
+
+  }
+  }
+.large-hero__off-badge {
+    position: absolute;
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px 30px;
+
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #240F6E;
+    bottom:-26px;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+  }
+@media (min-width: 530px) {
+.large-hero__off-badge {
+      max-width: 720px;
+      font-size: 16px
+  }
+  }
+@media (min-width: 768px) {
+.large-hero__off-badge {
+      max-width: 720px;
+      font-size: 20px
+  }
+  }
+.large-hero__off-badge:hover {
+      background-color: #007DB3;
+      color: white;
+      text-decoration: none;
+
+    }
+.large-hero__off-badge:visited {
+      color:white;
+      text-decoration: none;
+    }
+.why-long-term-course__item-wrapper {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+@media (min-width: 768px) {
+.why-long-term-course__item-wrapper {
+      padding-top: 50px;
+      padding-bottom: 30px
+  }
+  }
+.why-long-term-course__item {
+    width: 100%;
+    position: relative;
+
+    background-color: #f0f0f0;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+
+
+
+
+
+
+  }
+@media (min-width: 768px) {
+.why-long-term-course__item {
+      background:none;
+      padding: 0;
+      margin-bottom: 0
+
+
+
+
+
+
+  }
+  }
+.why-long-term-course__item--border-r:after {
+        content: '';
+        border: none;
+
+      }
+@media (min-width: 768px) {
+.why-long-term-course__item--border-r:after {
+          position: absolute;
+          height: 100%;
+          content: '';
+          top:0;
+          right: -20px;
+          border-right: 1px solid rgba(204, 204, 204, 0.55)
+
+      }
+  }
+.why-long-term-course__item .icon {
+      margin: 0 auto;
+    }
+.why-long-term-course__item__title {
+      font-size: 16px;
+      text-align: center;
+    }
+.why-long-term-course__item__text {
+      font-size: 14px;
+      text-align: center;
+      font-weight: lighter;
+      margin: 0;
+
+    }
+.page-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  color: #202020;
+
+}
+.page-title--white {
+    color: white
+  }
+@media (min-width: 768px) {
+.page-title {
+    font-size: 30px
+
+}
+  }
+.page-subtitle {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  max-width: 905px;
+  margin: 5px auto;
+  line-height: 120%;
+
+}
+.page-subtitle--white {
+    color: white
+  }
+@media (min-width: 768px) {
+.page-subtitle {
+    font-size: 18px
+
+}
+  }
+.btn {
+
+  padding: 5px 30px;
+  background-color: #007DB3;
+  text-align: center;
+  border-radius: 0;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.btn__b-text {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+.btn__b-subtext {
+    display: block;
+    color: white;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+  }
+.btn:hover {
+    background-color: #240F6E
+
+  }
+.btn-wrapper {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  float: left;
+}
+@media (min-width: 768px) {
+.btn-wrapper {
+    padding: 20px 0
+}
+  }
+.btn-more {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  border: 1px solid rgba(204, 204, 204, 0.55);
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  cursor: pointer;
+  color: #404040;
+
+
+}
+.btn-more--mtop {
+    margin: 10px 0;
+  }
+.btn-more span {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+  }
+.btn-more:hover {
+    background-color: #007DB3;
+    border: 1px solid white;
+
+  }
+.btn-more:hover span {
+      color: white;
+    }
+.download-brochure {
+  display: block;
+  text-decoration: underline;
+  margin-top: 10px;
+  color:#007DB3;
+
+
+}
+.download-brochure:visited {
+    color:#007DB3;
+  }
+.long-term-courses {
+  background-color: #F0F0F0;
+}
+.course-grid {
+width: 100%;
+padding-top: 30px;
+text-align: center;
+
+
+}
+.course-grid__grid-item--center {
+      display: inline-block !important;
+      float: none;
+      margin-bottom: 15px;
+
+    }
+.course-grid__grid-item__img{
+      display: block;
+
+    }
+.course-grid__grid-item__title {
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+    }
+@media (max-width: 529px) {
+.course-grid__grid-item__title {
+        height: auto !important
+    }
+  }
+.course-grid__grid-item__description {
+      font-size: 12px;
+      font-weight: 300;
+      text-align: center;
+    }
+@media (max-width: 529px) {
+.course-grid__grid-item__description {
+        height: auto !important
+    }
+  }
+.course-grid__grid-item__starting-from {
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      text-align: center;
+    }
+.course-grid__grid-item__price {
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: center;
+      color:#35771F;
+    }
+.course-grid__grid-item__inner {
+
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 1px 1px 9px rgba(150, 150, 150, 0.10);
+            box-shadow: 1px 1px 9px rgba(150, 150, 150, 0.10);
+
+
+  }
+.testimonial {
+  background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/testimonial-bg-small.jpg") top left no-repeat fixed;
+  background-size: cover;
+  background-color: #142933;
+
+}
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (                -webkit-min-device-pixel-ratio: 2) and (min-width: 1300px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+  only screen and (                -webkit-min-device-pixel-ratio: 2)  and (min-width: 1300px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
+.testimonial {
+    background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/testimonial-bg@2x.jpg") top center no-repeat fixed;
+    background-size: cover
+
+}
+
+  }
+@media (min-width: 530px) {
+.testimonial {
+    background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/testimonial-bg.jpg") top center no-repeat fixed;
+    background-size: cover
+
+}
+  }
+.testimonial__student {
+    display: block;
+    max-width: 107px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 10px auto;
+  }
+.testimonial__text__wrapper {
+    position: relative;
+    max-width: 815px;
+    margin:  10px auto;
+  }
+.testimonial__text__wrapper .icon--testimonial1 {
+      position: absolute;
+      left: -20px;
+      top:0;
+    }
+@media (min-width: 768px) {
+.testimonial__text__wrapper .icon--testimonial1 {
+        left: -30px
+    }
+  }
+.testimonial__text__wrapper .icon--testimonial2 {
+      position: absolute;
+      right: -20px;
+      top:0;
+    }
+@media (min-width: 768px) {
+.testimonial__text__wrapper .icon--testimonial2 {
+        right: -30px
+    }
+  }
+.testimonial__text {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    line-height: 125%;
+  }
+.testimonial__name {
+    display: block;
+    font-size: 16px;
+    margin:  10px auto;
+    color: white;
+    text-align: center;
+  }
+.how-quickly {
+  background-color: white;
+}
+.how-quickly__timetable {
+
+    padding-top: 30px;
+  }
+.how-quickly__timetable__item {
+
+      margin-bottom: 30px;
+
+
+    }
+.how-quickly__timetable__item--border-bottom {
+        position: relative;
+      }
+.how-quickly__timetable__item--border-bottom:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          border-bottom: 1px solid rgba(204, 204, 204, 0.55);
+          bottom: -15px;
+          left: 0;
+          z-index: 12;
+
+        }
+.how-quickly__timetable__item--border-right {
+        position: relative;
+      }
+.how-quickly__timetable__item--border-right:before {
+          content: '';
+          position: absolute;
+          width: 1px;
+          height: 100%;
+          border-right: 1px solid rgba(204, 204, 204, 0.55);
+          top:0;
+          right: 0px;
+          z-index: 10;
+
+        }
+.how-quickly__timetable__item--arrow-down:after {
+          position: absolute;
+          bottom: -20px;
+          left: 50%;
+          content: "";
+          display: block;
+          width: 0;
+          height: 0;
+          margin-left:-25px;
+          margin-top:-20px;
+
+          border-left: 20px solid transparent;
+          border-right: 20px solid transparent;
+          border-top: 20px solid #F0F0F0;
+
+
+        }
+@media (min-width: 768px) {
+.how-quickly__timetable__item--arrow-down:after {
+            display: none
+
+
+        }
+  }
+.how-quickly__timetable__item__inner {
+      min-height: 100px;
+      width: 100%;
+      padding: 5px 15px;
+      background-color: #F0F0F0;
+      -webkit-box-shadow: 1px 1px 9px rgba(150, 150, 150, 0.10);
+              box-shadow: 1px 1px 9px rgba(150, 150, 150, 0.10);
+
+
+    }
+.how-quickly__timetable__item__inner__weeks {
+        display: block;
+        font-size: 32px;
+        color: #202020;
+        font-weight: 700;
+        margin-bottom: -10px;
+        padding: 0;
+      }
+.how-quickly__timetable__item__inner__weeks .glyphicon-chevron-right, .how-quickly__timetable__item__inner__weeks .glyphicon-chevron-down, .how-quickly__timetable__item__inner__weeks .glyphicon-ok, .how-quickly__timetable__item__inner__weeks .glyphicon-education {
+         color: rgba(204, 204, 204, 0.55);
+          float: right;
+          font-weight: 300;
+          font-size: 24px;
+          padding-top: 10px;
+          text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.10);
+          display: none;
+          //display: none;
+
+        }
+@media (min-width: 768px) {
+.how-quickly__timetable__item__inner__weeks .glyphicon-chevron-right, .how-quickly__timetable__item__inner__weeks .glyphicon-chevron-down, .how-quickly__timetable__item__inner__weeks .glyphicon-ok, .how-quickly__timetable__item__inner__weeks .glyphicon-education {
+            display: block;
+
+        }
+  }
+.how-quickly__timetable__item__inner__weeks-text {
+        display: block;
+        font-size: 20px;
+        color: #404040;
+        font-weight: lighter;
+        margin:0;
+        padding: 0;
+      }
+.how-quickly__timetable__item__inner__title {
+        display: block;
+        font-size: 16px;
+        color: #404040;
+        font-weight: 700;
+        margin-top:15px;
+        margin-bottom: 5px;
+        padding: 0;
+
+      }
+.how-quickly__timetable__item__inner__description {
+        display: block;
+        font-size: 12px;
+        color: #404040;
+        font-weight: lighter;
+        margin-bottom: 5px;
+        padding: 0;
+
+      }
+@media (max-width: 529px) {
+.how-quickly__timetable__item__inner__description {
+          height: auto !important
+
+      }
+  }
+.how-quickly__timetable__item__inner__description__exam-levels {
+        display: block;
+        font-size: 12px;
+        color: #404040;
+        font-weight: lighter;
+        margin-bottom: 5px;
+        padding: 0;
+      }
+@media (max-width: 529px) {
+.how-quickly__timetable__item__inner__description__exam-levels {
+          height: auto !important
+      }
+  }
+.how-quickly__timetable__desclimer {
+      display: block;
+      font-size: 12px;
+      color: #404040;
+      font-weight: lighter;
+      padding: 0 10px;
+      text-align: center;
+    }
+.study-abroad {
+  background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/study-english-abroad-bg-small.jpg") top center no-repeat fixed;
+  background-size: cover;
+
+  background-color: #142933;
+
+
+}
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (                -webkit-min-device-pixel-ratio: 2) and (min-width: 1300px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+  only screen and (                -webkit-min-device-pixel-ratio: 2)  and (min-width: 1300px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
+.study-abroad {
+    background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/study-english-abroad-bg@2x.jpg") top center no-repeat fixed;
+    background-size: cover
+
+
+}
+
+  }
+@media (min-width: 530px) {
+.study-abroad {
+
+    background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/study-english-abroad-bg.jpg") top center no-repeat fixed;
+    background-size: cover
+
+
+}
+  }
+.study-abroad__content {
+    width: 100%;
+    padding-top: 20px;
+  }
+@media (min-width: 530px) {
+.study-abroad__content {
+      padding-top: 40px
+  }
+  }
+.study-abroad__content__circle {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border:2px solid white;
+      margin: 0 auto;
+
+    }
+.study-abroad__content__circle .icon {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+      }
+.study-abroad__content__description {
+      display: block;
+      font-size: 14px;
+      text-align: center;
+      color: white;
+      padding: 10px 15px;
+      line-height: 125%;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+.contact-us {
+  background-color: #F0F0F0;
+
+}
+.contact-us .dummy {
+    display: block;
+    max-width: 900px;
+    margin: 30px auto;
+  }
+.breadcrumb-container, .title-container {
+  display: none;
+}
+.content {
+  margin-top: 0;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#content .region-content {
+  width: 100% !important;
+}
+.why-long-term-course__item .icon {
+  display: block;
+}
+.course-grid__grid-item__title {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#block-webform-client-block-501 {
+  background: #f0f0f0 !important;
+}
+#block-webform-client-block-501  .block-content {
+  background-color: #f0f0f0 !important;
+  padding: 0 15px 30px 15px  !important;
+}
+.block-title {
+  display:none !important;
+}
+.webform-client-form {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+}
+.webform-client-form > div:before,
+.webform-client-form > div:after {
+  content: " ";
+  display: table;
+}
+.webform-client-form > div:after {
+  clear: both;
+}
+.webform-client-form > div:before,
+.webform-client-form > div:after {
+  content: " ";
+  display: table;
+}
+.webform-client-form > div:after {
+  clear: both;
+}
+@media (max-width: 767px) {
+  .webform-client-form {
+    width: 94%;
+    margin: 20px auto 0;
+  }
+}
+.webform-client-form .icon-ki-calendar {
+  background:none;
+}
+.webform-client-form .icon-ki-calendar:before {
+  content: " ";
+  left: 0;
+  top: 2px;
+  width: 30px;
+  height: 30px;
+  background: url(https://1.cdnkic.com/profiles/base_drupal_build/themes/kis_theme/images/ico-calendar.png);
+  position: relative;
+  display: inline-block;
+}
+.webform-client-form .panel-default > .panel-heading {
+  background: #232977;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+.webform-client-form fieldset {
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0 5px 18px 0;
+          box-shadow: rgba(0, 0, 0, 0.247059) 0 5px 18px 0;
+  margin-bottom: 35px;
+}
+@media (max-width: 991px) {
+  .webform-client-form fieldset {
+    margin-bottom: 25px;
+  }
+}
+.webform-client-form fieldset label {
+  display: block;
+  float: none;
+  width: 100%;
+  font-weight: bold;
+  min-height: 0;
+}
+.webform-client-form fieldset .webform-component {
+  width: 100%;
+  margin-bottom: 33px;
+}
+.webform-client-form fieldset .webform-component:last-child {
+  margin-bottom: 0;
+}
+.webform-client-form fieldset .webform-component > .webform-datepicker,
+.webform-client-form fieldset .webform-component > select,
+.webform-client-form fieldset .webform-component > .form-textarea-wrapper,
+.webform-client-form fieldset .webform-component > input {
+  width: 100%;
+  float: none;
+  clear: both;
+}
+.webform-client-form fieldset .webform-datepicker:before,
+.webform-client-form fieldset .webform-datepicker:after {
+  content: " ";
+  display: table;
+}
+.webform-client-form fieldset .webform-datepicker:after {
+  clear: both;
+}
+.webform-client-form fieldset .webform-datepicker:before,
+.webform-client-form fieldset .webform-datepicker:after {
+  content: " ";
+  display: table;
+}
+.webform-client-form fieldset .webform-datepicker:after {
+  clear: both;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select,
+.webform-client-form fieldset .webform-component {
+  position: relative;
+  display: inline-block;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select select,
+.webform-client-form fieldset .webform-component select {
+  padding-right: 33px;
+  background: #fff url("../images/select-arrow.png") right 6px center no-repeat;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select select,
+.language-dir-rtl .webform-client-form fieldset .webform-component select {
+  background-position: 9px center;
+  padding-right: 12px;
+  padding-left: 33px;
+}
+.webform-client-form fieldset .webform-component-date .form-group {
+  margin-bottom: 0;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select::before,
+.webform-client-form fieldset .webform-component-select::before {
+  display: none;
+  position: absolute;
+  bottom: 7px;
+  height: 20px;
+  right: 29px;
+  width: 1px;
+  content: " ";
+  background: #dddddd;
+}
+@media (min-width: 768px) {
+  .webform-client-form fieldset .webform-datepicker .form-type-select::before,
+  .webform-client-form fieldset .webform-component-select::before {
+    display: block;
+  }
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select::before,
+.language-dir-rtl .webform-client-form fieldset .webform-component-select::before {
+  right: auto;
+  left: 29px;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select {
+  float: left;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select {
+  float: right;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select::before {
+  right: 31px;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select::before {
+  right: auto;
+  left: 31px;
+}
+@media (max-width: 767px) {
+  .webform-client-form fieldset .webform-datepicker .form-type-select .form-select {
+    padding-right: 16px;
+    padding-left: 7px;
+    background-position: right 1px center;
+  }
+  .language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select .form-select {
+    padding-right: 7px;
+    padding-left: 16px;
+    background-position: 4px center;
+  }
+}
+@media (min-width: 1200px) {
+  .webform-client-form fieldset .webform-datepicker .form-type-select .form-select {
+    padding-right: 30px;
+    padding-left: 8px;
+  }
+  .language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select .form-select {
+    padding-left: 30px;
+    padding-right: 8px;
+  }
+}
+.webform-client-form fieldset .webform-datepicker .webform-calendar-icon {
+  vertical-align: top;
+  float: left;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .webform-calendar-icon {
+  float: right;
+}
+.webform-client-form fieldset .webform-component {
+  display: block;
+  float: left;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-component {
+  float: right;
+}
+@media (min-width: 1200px) {
+  .webform-client-form fieldset .webform-component {
+    width: 47%;
+  }
+}
+.webform-client-form fieldset .webform-component .description {
+  width: 100%;
+  float: none;
+  font-size: 12px;
+}
+@media (max-width: 1199px) {
+  .webform-client-form fieldset div[class*='webform-component--step-1--Preferred-Start-Date'],
+  .webform-client-form fieldset div[class*='webform-component--step-1--Preferred-Contact-Date'] {
+    width: 100%;
+  }
+}
+.webform-client-form fieldset .webform-component--step-1--Questions-and-Comments--c-sfd-1454655804 .radio {
+  display: inline-block;
+}
+.webform-client-form fieldset div[class*='webform-component--step-1--Questions-and-Comments'] {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .webform-client-form fieldset .left-component {
+    margin-right: 6%;
+  }
+  .language-dir-rtl .webform-client-form fieldset .left-component {
+    margin-right: 0;
+    margin-left: 6%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .webform-client-form fieldset .left-component {
+    margin-right: 2%;
+  }
+  .language-dir-rtl .webform-client-form fieldset .left-component {
+    margin-right: 0;
+    margin-left: 2%;
+  }
+}
+.webform-client-form fieldset .webform-component--step-2--Date-of-Birth--c-sfd-1463042328 .webform-container-inline {
+  width: 100%;
+}
+.webform-client-form > div > .webform-component-checkboxes {
+  width: 100%;
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .webform-client-form > div > .webform-component-checkboxes {
+    text-align: right;
+  }
+  .language-dir-rtl .webform-client-form > div > .webform-component-checkboxes {
+    text-align: left;
+  }
+  .webform-client-form > div > .webform-component-checkboxes label.option {
+    padding-right: 30px;
+  }
+  .language-dir-rtl .webform-client-form > div > .webform-component-checkboxes label.option {
+    padding-right: 0;
+    padding-left: 30px;
+  }
+}
+.webform-client-form > div > .webform-component-checkboxes input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  top: -2px;
+}
+@media (min-width: 992px) {
+  .webform-client-form > div > .webform-component-checkboxes input[type="checkbox"] {
+    position: absolute;
+    right: 0;
+  }
+  .language-dir-rtl .webform-client-form > div > .webform-component-checkboxes input[type="checkbox"] {
+    right: auto;
+    left: 0;
+  }
+}
+.webform-client-form .webform-submit {
+  width: 100%;
+  float: right;
+  background: #00A5D9;
+  border: none;
+}
+.language-dir-rtl .webform-client-form .webform-submit {
+  float: left;
+}
+.webform-client-form .webform-submit:hover {
+  border: none;
+  background: #121B60;
+}
+@media (min-width: 992px) {
+  .webform-client-form .webform-submit {
+    max-width: 320px;
+    margin: 10px 0;
+  }
+}
+.webform-client-form .webform-component-fieldset div[class*='fieldset--Questions-and-Comments'],
+.webform-client-form .webform-component-fieldset div[class*='fieldset--Brochure-Downloaded'] {
+  width: 100%;
+}
+@media (max-width: 1199px) {
+  .webform-client-form .webform-component-fieldset div[class*='webform-component--fieldset--Preferred-Start-Date'] {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .webform-client-form .webform-component-fieldset .webform-component.webform-component--fieldset--Brochure-Downloaded--c-sfd-1407249818,
+  .webform-client-form .webform-component-fieldset .webform-component.webform-component--fieldset--Brochure-Downloaded--c-sfd-1407249854 {
+    width: 47%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .webform-client-form .webform-component-fieldset .webform-component.webform-component--fieldset--Brochure-Downloaded--c-sfd-1407249818,
+  .webform-client-form .webform-component-fieldset .webform-component.webform-component--fieldset--Brochure-Downloaded--c-sfd-1407249854 {
+    width: 49%;
+  }
+}
+

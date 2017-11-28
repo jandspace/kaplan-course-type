@@ -1,0 +1,346 @@
+
+.breadcrumb-container, .title-container {
+  display: none;
+}
+
+.content {
+  margin-top: 0;
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#content .region-content {
+  width: 100% !important;
+}
+
+.why-long-term-course__item .icon {
+  display: block;
+}
+
+.course-grid__grid-item__title {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+#block-webform-client-block-501 {
+  background: #f0f0f0 !important;
+}
+
+#block-webform-client-block-501  .block-content {
+  background-color: #f0f0f0 !important;
+  padding: 0 15px 30px 15px  !important;
+}
+
+
+.block-title {
+  display:none !important;
+}
+.webform-client-form {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+}
+
+.webform-client-form > div:before,
+.webform-client-form > div:after {
+  content: " ";
+  display: table;
+}
+.webform-client-form > div:after {
+  clear: both;
+}
+.webform-client-form > div:before,
+.webform-client-form > div:after {
+  content: " ";
+  display: table;
+}
+.webform-client-form > div:after {
+  clear: both;
+}
+@media (max-width: 767px) {
+  .webform-client-form {
+    width: 94%;
+    margin: 20px auto 0;
+  }
+}
+.webform-client-form .icon-ki-calendar {
+  background:none;
+}
+.webform-client-form .icon-ki-calendar:before {
+  content: " ";
+  left: 0;
+  top: 2px;
+  width: 30px;
+  height: 30px;
+  background: url(https://1.cdnkic.com/profiles/base_drupal_build/themes/kis_theme/images/ico-calendar.png);
+  position: relative;
+  display: inline-block;
+}
+.webform-client-form .panel-default > .panel-heading {
+  background: #232977;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+.webform-client-form fieldset {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.247059) 0 5px 18px 0;
+  margin-bottom: 35px;
+}
+@media (max-width: 991px) {
+  .webform-client-form fieldset {
+    margin-bottom: 25px;
+  }
+}
+.webform-client-form fieldset label {
+  display: block;
+  float: none;
+  width: 100%;
+  font-weight: bold;
+  min-height: 0;
+}
+.webform-client-form fieldset .webform-component {
+  width: 100%;
+  margin-bottom: 33px;
+}
+.webform-client-form fieldset .webform-component:last-child {
+  margin-bottom: 0;
+}
+.webform-client-form fieldset .webform-component > .webform-datepicker,
+.webform-client-form fieldset .webform-component > select,
+.webform-client-form fieldset .webform-component > .form-textarea-wrapper,
+.webform-client-form fieldset .webform-component > input {
+  width: 100%;
+  float: none;
+  clear: both;
+}
+.webform-client-form fieldset .webform-datepicker:before,
+.webform-client-form fieldset .webform-datepicker:after {
+  content: " ";
+  display: table;
+}
+.webform-client-form fieldset .webform-datepicker:after {
+  clear: both;
+}
+.webform-client-form fieldset .webform-datepicker:before,
+.webform-client-form fieldset .webform-datepicker:after {
+  content: " ";
+  display: table;
+}
+.webform-client-form fieldset .webform-datepicker:after {
+  clear: both;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select,
+.webform-client-form fieldset .webform-component {
+  position: relative;
+  display: inline-block;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select select,
+.webform-client-form fieldset .webform-component select {
+  padding-right: 33px;
+  background: #fff url("../images/select-arrow.png") right 6px center no-repeat;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select select,
+.language-dir-rtl .webform-client-form fieldset .webform-component select {
+  background-position: 9px center;
+  padding-right: 12px;
+  padding-left: 33px;
+}
+.webform-client-form fieldset .webform-component-date .form-group {
+  margin-bottom: 0;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select::before,
+.webform-client-form fieldset .webform-component-select::before {
+  display: none;
+  position: absolute;
+  bottom: 7px;
+  height: 20px;
+  right: 29px;
+  width: 1px;
+  content: " ";
+  background: #dddddd;
+}
+@media (min-width: 768px) {
+  .webform-client-form fieldset .webform-datepicker .form-type-select::before,
+  .webform-client-form fieldset .webform-component-select::before {
+    display: block;
+  }
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select::before,
+.language-dir-rtl .webform-client-form fieldset .webform-component-select::before {
+  right: auto;
+  left: 29px;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select {
+  float: left;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select {
+  float: right;
+}
+.webform-client-form fieldset .webform-datepicker .form-type-select::before {
+  right: 31px;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select::before {
+  right: auto;
+  left: 31px;
+}
+@media (max-width: 767px) {
+  .webform-client-form fieldset .webform-datepicker .form-type-select .form-select {
+    padding-right: 16px;
+    padding-left: 7px;
+    background-position: right 1px center;
+  }
+  .language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select .form-select {
+    padding-right: 7px;
+    padding-left: 16px;
+    background-position: 4px center;
+  }
+}
+@media (min-width: 1200px) {
+  .webform-client-form fieldset .webform-datepicker .form-type-select .form-select {
+    padding-right: 30px;
+    padding-left: 8px;
+  }
+  .language-dir-rtl .webform-client-form fieldset .webform-datepicker .form-type-select .form-select {
+    padding-left: 30px;
+    padding-right: 8px;
+  }
+}
+.webform-client-form fieldset .webform-datepicker .webform-calendar-icon {
+  vertical-align: top;
+  float: left;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-datepicker .webform-calendar-icon {
+  float: right;
+}
+.webform-client-form fieldset .webform-component {
+  display: block;
+  float: left;
+}
+.language-dir-rtl .webform-client-form fieldset .webform-component {
+  float: right;
+}
+@media (min-width: 1200px) {
+  .webform-client-form fieldset .webform-component {
+    width: 47%;
+  }
+}
+.webform-client-form fieldset .webform-component .description {
+  width: 100%;
+  float: none;
+  font-size: 12px;
+}
+@media (max-width: 1199px) {
+  .webform-client-form fieldset div[class*='webform-component--step-1--Preferred-Start-Date'],
+  .webform-client-form fieldset div[class*='webform-component--step-1--Preferred-Contact-Date'] {
+    width: 100%;
+  }
+}
+.webform-client-form fieldset .webform-component--step-1--Questions-and-Comments--c-sfd-1454655804 .radio {
+  display: inline-block;
+}
+.webform-client-form fieldset div[class*='webform-component--step-1--Questions-and-Comments'] {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .webform-client-form fieldset .left-component {
+    margin-right: 6%;
+  }
+  .language-dir-rtl .webform-client-form fieldset .left-component {
+    margin-right: 0;
+    margin-left: 6%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .webform-client-form fieldset .left-component {
+    margin-right: 2%;
+  }
+  .language-dir-rtl .webform-client-form fieldset .left-component {
+    margin-right: 0;
+    margin-left: 2%;
+  }
+}
+.webform-client-form fieldset .webform-component--step-2--Date-of-Birth--c-sfd-1463042328 .webform-container-inline {
+  width: 100%;
+}
+.webform-client-form > div > .webform-component-checkboxes {
+  width: 100%;
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .webform-client-form > div > .webform-component-checkboxes {
+    text-align: right;
+  }
+  .language-dir-rtl .webform-client-form > div > .webform-component-checkboxes {
+    text-align: left;
+  }
+  .webform-client-form > div > .webform-component-checkboxes label.option {
+    padding-right: 30px;
+  }
+  .language-dir-rtl .webform-client-form > div > .webform-component-checkboxes label.option {
+    padding-right: 0;
+    padding-left: 30px;
+  }
+}
+.webform-client-form > div > .webform-component-checkboxes input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  top: -2px;
+}
+@media (min-width: 992px) {
+  .webform-client-form > div > .webform-component-checkboxes input[type="checkbox"] {
+    position: absolute;
+    right: 0;
+  }
+  .language-dir-rtl .webform-client-form > div > .webform-component-checkboxes input[type="checkbox"] {
+    right: auto;
+    left: 0;
+  }
+}
+.webform-client-form .webform-submit {
+  width: 100%;
+  float: right;
+  background: #00A5D9;
+  border: none;
+}
+.language-dir-rtl .webform-client-form .webform-submit {
+  float: left;
+}
+.webform-client-form .webform-submit:hover {
+  border: none;
+  background: #121B60;
+}
+@media (min-width: 992px) {
+  .webform-client-form .webform-submit {
+    max-width: 320px;
+    margin: 10px 0;
+  }
+}
+.webform-client-form .webform-component-fieldset div[class*='fieldset--Questions-and-Comments'],
+.webform-client-form .webform-component-fieldset div[class*='fieldset--Brochure-Downloaded'] {
+  width: 100%;
+}
+@media (max-width: 1199px) {
+  .webform-client-form .webform-component-fieldset div[class*='webform-component--fieldset--Preferred-Start-Date'] {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .webform-client-form .webform-component-fieldset .webform-component.webform-component--fieldset--Brochure-Downloaded--c-sfd-1407249818,
+  .webform-client-form .webform-component-fieldset .webform-component.webform-component--fieldset--Brochure-Downloaded--c-sfd-1407249854 {
+    width: 47%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .webform-client-form .webform-component-fieldset .webform-component.webform-component--fieldset--Brochure-Downloaded--c-sfd-1407249818,
+  .webform-client-form .webform-component-fieldset .webform-component.webform-component--fieldset--Brochure-Downloaded--c-sfd-1407249854 {
+    width: 49%;
+  }
+}

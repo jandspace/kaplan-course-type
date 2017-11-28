@@ -1,0 +1,92 @@
+.btn {
+
+  padding: 5px 30px;
+  background-color: $lightBlue;
+  text-align: center;
+  border-radius: 0;
+  text-decoration: none;
+  transition: all .3s ease-out;
+
+
+  &__b-text {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__b-subtext {
+    display: block;
+    color: white;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+  }
+
+  &:hover {
+    background-color: $mainBlue
+
+  }
+}
+
+.btn-wrapper {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  float: left;
+
+  @mixin atMedium {
+    padding: 20px 0;
+
+  }
+}
+
+
+
+.btn-more {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  border: 1px solid rgba(204, 204, 204, 0.55);
+  transition: all .3s ease-out;
+  cursor: pointer;
+  color: $lightGray;
+
+  &--mtop {
+    margin: 10px 0;
+  }
+
+
+  span {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    background-color: $lightBlue;
+    border: 1px solid white;
+    span {
+      color: white;
+    }
+
+  }
+
+
+}
+
+.download-brochure {
+  display: block;
+  text-decoration: underline;
+  margin-top: 10px;
+  color:#007DB3;
+
+  &:visited {
+    color:#007DB3;
+  }
+
+
+}

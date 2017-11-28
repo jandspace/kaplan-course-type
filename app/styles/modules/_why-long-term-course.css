@@ -1,0 +1,75 @@
+.why-long-term-course {
+
+  &__item-wrapper {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    @mixin atMedium {
+      padding-top: 50px;
+      padding-bottom: 30px;
+    }
+  }
+
+
+  &__item {
+    width: 100%;
+    position: relative;
+
+    background-color: #f0f0f0;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+
+    @mixin atMedium {
+      background:none;
+      padding: 0;
+      margin-bottom: 0;
+
+    }
+
+    &--border-r {
+      &:after {
+        content: '';
+        border: none;
+
+        @mixin atMedium {
+          position: absolute;
+          height: 100%;
+          content: '';
+          top:0;
+          right: -20px;
+          border-right: 1px solid rgba(204, 204, 204, 0.55);
+
+        }
+
+      }
+    }
+
+    .icon {
+      margin: 0 auto;
+    }
+
+    &__title {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    &__text {
+      font-size: 14px;
+      text-align: center;
+      font-weight: lighter;
+      margin: 0;
+
+    }
+
+
+
+
+
+
+  }
+
+
+
+}

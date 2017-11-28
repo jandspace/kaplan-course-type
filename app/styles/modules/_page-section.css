@@ -1,0 +1,14 @@
+.page-section {
+
+  padding: 50px 15px;
+
+
+  &--extra-t {
+    padding-top: 50px;
+    @mixin atMedium {
+      padding-top: 75px;
+
+    }
+  }
+
+}

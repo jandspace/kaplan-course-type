@@ -1,0 +1,66 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+.icon {
+  background-image: url('/images/sprites/sprite-929af091.svg');
+}
+
+.icon--career {
+  width: 61px;
+  height: 62px;
+  background-position: 50% 52.592592592592595%;
+}
+
+.icon--college {
+  width: 50px;
+  height: 50px;
+  background-position: 35.947712418300654% 96.59863945578232%;
+}
+
+.icon--friends {
+  width: 61px;
+  height: 62px;
+  background-position: 100% 0;
+}
+
+.icon--improve-your-english {
+  width: 61px;
+  height: 62px;
+  background-position: 100% 45.925925925925924%;
+}
+
+.icon--progress {
+  width: 71px;
+  height: 71px;
+  background-position: 0 0;
+}
+
+.icon--resume {
+  width: 71px;
+  height: 71px;
+  background-position: 53.78787878787879% 0;
+}
+
+.icon--schools {
+  width: 71px;
+  height: 71px;
+  background-position: 0 56.34920634920635%;
+}
+
+.icon--student {
+  width: 55px;
+  height: 55px;
+  background-position: 0 100%;
+}
+
+.icon--testimonial1 {
+  width: 19px;
+  height: 19px;
+  background-position: 57.06521739130435% 79.7752808988764%;
+}
+
+.icon--testimonial2 {
+  width: 19px;
+  height: 19px;
+  background-position: 67.3913043478261% 79.7752808988764%;
+}

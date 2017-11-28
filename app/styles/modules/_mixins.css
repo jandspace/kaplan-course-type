@@ -1,0 +1,66 @@
+
+
+@define-mixin atSmaller {
+  @media (max-width: 529px) {
+    @mixin-content;
+  }
+}
+
+
+@define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atMedium {
+  @media (min-width: 768px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atLarge {
+  @media (min-width: 1170px) {
+    @mixin-content;
+  }
+}
+
+
+
+@define-mixin atRetina {
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
+
+    @mixin-content;
+
+  }
+}
+
+@define-mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+
+@define-mixin centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+@define-mixin centeredY {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}

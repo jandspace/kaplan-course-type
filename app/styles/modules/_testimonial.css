@@ -1,0 +1,68 @@
+.testimonial {
+  background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/testimonial-bg-small.jpg") top left no-repeat fixed;
+  background-size: cover;
+  background-color: #142933;
+
+  @mixin atRetina {
+    background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/testimonial-bg@2x.jpg") top center no-repeat fixed;
+    background-size: cover;
+
+  }
+
+  @mixin atSmall {
+    background: url("https://assetlibs.kaplaninternational.com/long-term-courses/img/testimonial-bg.jpg") top center no-repeat fixed;
+    background-size: cover;
+  }
+
+  &__student {
+    display: block;
+    max-width: 107px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 10px auto;
+  }
+
+  &__text__wrapper {
+    position: relative;
+    max-width: 815px;
+    margin:  10px auto;
+
+    .icon--testimonial1 {
+      position: absolute;
+      left: -20px;
+      top:0;
+
+      @mixin atMedium {
+        left: -30px;
+      }
+    }
+
+    .icon--testimonial2 {
+      position: absolute;
+      right: -20px;
+      top:0;
+
+      @mixin atMedium {
+        right: -30px;
+      }
+    }
+  }
+
+  &__text {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    line-height: 125%;
+  }
+
+  &__name {
+    display: block;
+    font-size: 16px;
+    margin:  10px auto;
+    color: white;
+    text-align: center;
+  }
+
+}
